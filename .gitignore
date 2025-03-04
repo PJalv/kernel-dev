@@ -1,0 +1,38 @@
+# Compiled kernel modules
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+modules.order
+Module.symvers
+
+# Build artifacts
+.tmp_versions/
+.cache.mk
+*.cmd
+.*.cmd
+
+
+# Generated files
+compile_commands.json
+.cache/
+
+# Kernel symlink
+kernel-headers
+
+# Nix-specific
+result
+result-*
+.direnv/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+

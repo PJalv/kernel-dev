@@ -10,7 +10,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-        targetKernel = pkgs.linuxKernel.packages.linux_6_13;
+        targetKernel = pkgs.linuxPackages_6_13;
 
         # Generate compile_commands.json for the kernel
         # This will allow LSP servers to understand kernel code
